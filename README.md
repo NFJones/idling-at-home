@@ -1,6 +1,6 @@
 # idling-at-home
 
-`idling-at-home` will start and stop Folding&Home based on whether or not your computer is idle.
+`idling-at-home` will start and stop Folding@Home based on whether or not your computer is idle.
 
 ## Usage
 

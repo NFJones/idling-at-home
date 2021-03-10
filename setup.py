@@ -14,8 +14,8 @@ with open(path.join(here, "requirements.txt"), "r") as infile:
 
 setup(
     name="idling_at_home",
-    version="2021.0",
-    description="Start Folding&Home when your computer is idle.",
+    version="2021.1",
+    description="Start Folding@Home when your computer is idle.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/NFJones/idling-at-home",
@@ -24,7 +24,7 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
     ],
-    keywords="folding home folding&home",
+    keywords="folding home folding@home",
     packages=["idling_at_home"],
     python_requires=">=3.5, <4",
     entry_points={"console_scripts": ["idling-at-home = idling_at_home.main:main"]},
